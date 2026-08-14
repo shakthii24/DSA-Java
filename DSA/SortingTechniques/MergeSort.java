@@ -1,4 +1,4 @@
-package DSA.Recursion;
+package DSA.SortingTechniques;
 import java.util.*;
 
 public class MergeSort {
