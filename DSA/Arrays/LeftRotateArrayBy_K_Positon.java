@@ -30,6 +30,7 @@ public class LeftRotateArrayBy_K_Positon {
 
     System.out.println("How many positions you want to rotate the array by left: ");
     int k = sc.nextInt();
+    k = k % size;
 
     reverse(arr,0,k-1);
     reverse(arr,k,arr.length-1);
