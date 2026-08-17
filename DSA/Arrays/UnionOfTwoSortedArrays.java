@@ -18,12 +18,10 @@ public class UnionOfTwoSortedArrays {
                 }
                 i++;
             }else{
-                if(arr2[j] < arr1[i]){
                     if(list.isEmpty() || list.get(list.size()-1) < arr2[j]){
                         list.add(arr2[j]);
                     }
                     j++;
-                }
             }
         }
         
